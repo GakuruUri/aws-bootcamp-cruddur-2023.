@@ -35,3 +35,8 @@
 -Opened a support ticket and requested for a service limit for AWS fargate.
 ![Sevice Limit](https://user-images.githubusercontent.com/27725033/219409063-a9367f00-cd35-44d9-994d-4dd06e88c54a.png)
 ![Support case](https://user-images.githubusercontent.com/27725033/219409109-2c600e2b-9785-4f8d-8860-218c4957818d.png)
+
+7. Install AWS CLI on Ubuntu v22 **Successful**
+![AWS CLI](https://user-images.githubusercontent.com/27725033/219803535-e386c20a-e438-42d9-9d15-f6dcdb0853f6.png)
+![AWS CLI Successful](https://user-images.githubusercontent.com/27725033/219803544-074fdfa1-ce74-4801-8d1f-1b804031d491.png)
+
