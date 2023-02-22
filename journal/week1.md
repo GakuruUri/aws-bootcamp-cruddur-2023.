@@ -18,13 +18,17 @@ KMV errors on Ubuntu desktop!
 Successfully running a docker image on Ubuntu 22.04 Laptop!
 
 [Docker Build On Local Machine](https://user-images.githubusercontent.com/27725033/220610006-5aadd18d-9698-4d0f-bd78-f8a4f0897226.png)
+
 ![Docker research](https://user-images.githubusercontent.com/27725033/220610119-3e0abd2c-5f99-4c28-89c7-66fe0421c110.png)!
+
 [Research on docker errors](https://user-images.githubusercontent.com/27725033/220610191-342641b5-666c-49fa-962f-3a24e79f7e4e.png)
 
 Worked successfully on notifications button as per instructions without problems!
 
 [notifications reply 200](https://user-images.githubusercontent.com/27725033/220610393-a61b7cb6-321c-4fbc-905a-cd336cba6b15.png)!
+
 [Notifications Working !](https://user-images.githubusercontent.com/27725033/220610430-2e318a80-75e8-4c3b-8dd6-0d479a80f48a.png)!
+
 [Rinning the F_end and B_End](https://user-images.githubusercontent.com/27725033/220610588-cf6391d7-47b3-4223-94dc-ecfe902a03a3.png)
 
 Git Push error reslolution!
@@ -32,6 +36,7 @@ Git Push error reslolution!
 [Git push wasn't working](https://user-images.githubusercontent.com/27725033/220610694-645ab25d-ab8b-45e1-a5b5-7ce80bf14a6f.png)
 
 ![Free port](https://user-images.githubusercontent.com/27725033/220610733-182bcc5c-1783-4a0c-97aa-d508e3fa3e57.png)
+
 ![Finally freed port](https://user-images.githubusercontent.com/27725033/220610814-91c60647-279c-4cd2-9239-dc554222f9ca.png)
 
 
