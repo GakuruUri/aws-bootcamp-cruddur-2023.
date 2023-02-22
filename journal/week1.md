@@ -1,7 +1,9 @@
 # Week 1 — App Containerization
 1. Launched an EC2 instance with Docker installed.
-2. ![steps installing docker on EC2](https://user-images.githubusercontent.com/27725033/220609115-3887b443-5d19-408a-a8f3-477959c43e0f.png)
-![Docker Install EC2 CMD](https://user-images.githubusercontent.com/27725033/220609301-10587069-41d0-47f8-b560-90e48ac99455.png)
+2. 
+3.![steps installing docker on EC2](https://user-images.githubusercontent.com/27725033/220609115-3887b443-5d19-408a-a8f3-477959c43e0f.png)
+
+  ![Docker Install EC2 CMD](https://user-images.githubusercontent.com/27725033/220609301-10587069-41d0-47f8-b560-90e48ac99455.png)
 
 Successfully run Docker on an EC2 Instance!
 
@@ -22,6 +24,8 @@ Successfully running a docker image on Ubuntu 22.04 Laptop!
 ![Docker research](https://user-images.githubusercontent.com/27725033/220610119-3e0abd2c-5f99-4c28-89c7-66fe0421c110.png)!
 
 [Research on docker errors](https://user-images.githubusercontent.com/27725033/220610191-342641b5-666c-49fa-962f-3a24e79f7e4e.png)
+
+https://stackoverflow.com/questions/24993704/docker-error-cannot-start-container-port-has-already-been-allocated
 
 Worked successfully on notifications button as per instructions without problems!
 
