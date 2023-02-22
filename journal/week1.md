@@ -1,11 +1,16 @@
 # Week 1 — App Containerization
-1. Launched an EC2 instance with Docker installed.![steps installing docker on EC2](https://user-images.githubusercontent.com/27725033/220609115-3887b443-5d19-408a-a8f3-477959c43e0f.png)
+1. Launched an EC2 instance with Docker installed.
+2. ![steps installing docker on EC2](https://user-images.githubusercontent.com/27725033/220609115-3887b443-5d19-408a-a8f3-477959c43e0f.png)
 ![Docker Install EC2 CMD](https://user-images.githubusercontent.com/27725033/220609301-10587069-41d0-47f8-b560-90e48ac99455.png)
 
 Successfully run Docker on an EC2 Instance!
 
 [Docker working Success on EC2](https://user-images.githubusercontent.com/27725033/220609537-26cab317-45a3-4858-9574-b1667872ff8b.png)
-Successfull Installation of Docker on Local Env![Successfuly installed Docker Ubuntu Desktop](https://user-images.githubusercontent.com/27725033/220609617-ad9bfeed-5cf7-4ab7-8a9b-675e65ee951a.png)
+
+Successfull Installation of Docker on Local Env
+
+![Successfuly installed Docker Ubuntu Desktop](https://user-images.githubusercontent.com/27725033/220609617-ad9bfeed-5cf7-4ab7-8a9b-675e65ee951a.png)
+
 KMV errors on Ubuntu desktop!
 
 [Ubuntu KMV error](https://user-images.githubusercontent.com/27725033/220609837-c4ba954b-fa92-4358-86e5-927b338f8a35.png)
