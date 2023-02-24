@@ -1,11 +1,11 @@
 # Week 1 — App Containerization
-1. Launched an EC2 instance with Docker installed.
-2. 
-3.![steps installing docker on EC2](https://user-images.githubusercontent.com/27725033/220609115-3887b443-5d19-408a-a8f3-477959c43e0f.png)
+Launched an EC2 instance with Docker installed.
 
-  ![Docker Install EC2 CMD](https://user-images.githubusercontent.com/27725033/220609301-10587069-41d0-47f8-b560-90e48ac99455.png)
+![steps installing docker on EC2](https://user-images.githubusercontent.com/27725033/220609115-3887b443-5d19-408a-a8f3-477959c43e0f.png)
 
-Successfully run Docker on an EC2 Instance!
+ ![Docker Install EC2 CMD](https://user-images.githubusercontent.com/27725033/220609301-10587069-41d0-47f8-b560-90e48ac99455.png)
+
+ Successfully run Docker on an EC2 Instance!
 
 [Docker working Success on EC2](https://user-images.githubusercontent.com/27725033/220609537-26cab317-45a3-4858-9574-b1667872ff8b.png)
 
@@ -26,6 +26,44 @@ Successfully running a docker image on Ubuntu 22.04 Laptop!
 [Research on docker errors](https://user-images.githubusercontent.com/27725033/220610191-342641b5-666c-49fa-962f-3a24e79f7e4e.png)
 
 https://stackoverflow.com/questions/24993704/docker-error-cannot-start-container-port-has-already-been-allocated
+
+Managed to create a multi-stage dockerfile build.
+````
+To write a multi-stage Dockerfile, you need to use multiple FROM statements, each with a different base image. You can name each stage using AS keyword, and copy artifacts from one stage to another using COPY --from=stage_name command².
+
+For example, you can create a multi-stage Dockerfile for a React application that uses Nginx to serve the app¹:
+
+```
+# Stage 1: Build React app
+FROM node:14-alpine as builder
+WORKDIR /app
+COPY package.json yarn.lock ./
+RUN yarn install
+COPY . .
+RUN yarn build
+
+# Stage 2: Serve app with Nginx
+FROM nginx:alpine
+COPY --from=builder /app/build /usr/share/nginx/html
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
+```
+````
+DockerFile Multi-stage build and Docker images Best practise.
+
+https://www.howtogeek.com/devops/what-are-multi-stage-docker-builds
+
+https://www.padok.fr/en/blog/docker-image-multi-staging
+
+https://www.toolsqa.com/docker/multi-stage-builds-in-docker
+
+https://devopspilot.com/content/docker/tutorials/Dockerfile/03-create-multi-stage-dockerfile.html
+
+https://docs.docker.com/build/building/multi-stage
+
+https://docs.docker.com/develop/develop-images/dockerfile_best-practice
+
+
 
 Worked successfully on notifications button as per instructions without problems!
 
